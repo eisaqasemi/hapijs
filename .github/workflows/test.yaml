@@ -1,4 +1,4 @@
-name: HAPPIJS TESTS
+name: Tests
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 
 jobs:
   test:
-    environment: production
     runs-on: ubuntu-latest
     strategy:
       matrix:
