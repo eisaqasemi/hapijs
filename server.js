@@ -5,7 +5,6 @@ const path = require("path");
 
 
 
-
 // Create a server with a host and port
 const server = Hapi.server({
   host: "0.0.0.0",
